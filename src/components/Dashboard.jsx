@@ -11,7 +11,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/metrics');
+        const response = await fetch('https://dashboard-backend-0km7.onrender.com/');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
