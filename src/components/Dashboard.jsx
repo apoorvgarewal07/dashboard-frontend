@@ -10,7 +10,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
+      try { 
         const response = await fetch('https://dashboard-backend-0km7.onrender.com/');
         if (!response.ok) {
           throw new Error('Network response was not ok');
